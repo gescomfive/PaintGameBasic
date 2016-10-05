@@ -1,0 +1,200 @@
+<style>
+
+*{
+padding:0;
+margin:0;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-touch-callout: none;
+}
+
+body{
+  color:blue;
+ 
+
+}
+
+#container{background-image:url('replaceme.png');
+
+        height:568px;
+        width:320px;
+z-index:-20;
+      }
+
+
+
+
+      #canvas{
+
+       /*border:2px solid black;
+        background-repeat:no-repeat;
+        background-image:url('replaceme.jpg');
+        /*margin-right:20px;
+        margin-left:20px;
+        margin-top:20px;
+        margin-bottom:60px;*/
+        height:568px;
+        width:320px;
+        -webkit-mask-image:url('replaceme.png');
+        -webkit-mask-repeat:no-repeat;
+
+
+      }
+
+
+      #red_btn{
+
+
+background-image:url('red_btn.png');
+height:50px;
+width:72px;
+
+        left:20px;
+        bottom:10px;
+        z-index:1;
+        position: fixed;
+
+      }
+
+      #orange_btn{
+
+
+background-image:url('turqoise_btn.png');
+height:50px;
+width:72px;
+
+        left:192px;
+        bottom:80px;
+        z-index:1;
+        position: fixed;
+
+      }
+       #purple_btn{
+
+
+background-image:url('purple_btn.png');
+height:50px;
+width:72px;
+
+        left:192px;
+        bottom:10px;
+        z-index:1;
+        position: fixed;
+
+      }
+
+       #pink_btn{
+
+
+background-image:url('pink_btn.png');
+height:50px;
+width:72px;
+
+        left:20px;
+        bottom:80px;
+        z-index:1;
+        position: fixed;
+
+      }
+
+      #yellow_btn{
+
+
+background-image:url('yellow_btn.png');
+height:50px;
+width:72px;
+
+        left:102px;
+        bottom:10px;
+        z-index:1;
+        position: fixed;
+
+      }
+
+
+
+        #green_btn{
+
+        background-image:url('green_btn.png');
+height:50px;
+width:72px;
+
+        left:102px;
+        bottom:80px;
+        z-index:1;
+        position: fixed;
+      }
+
+      
+      .small_btn{
+
+        background-image:url('brushsmall_off.png');
+        height:89px;
+        width:92px;
+        left:150px;
+        top:10px;
+        z-index:1;
+        position: fixed;
+      }
+
+      .small_btn_down{
+      	background-image:url('brushsmall_on.png');
+        height:89px;
+        width:92px;
+        left:150px;
+        top:10px;
+        z-index:1;
+        position: fixed;
+      }
+
+      .big_btn{
+
+       background-image:url('brushbig_off.png');
+        height:50px;
+        width:52px;
+        left:260px;
+
+        top:45px;
+        z-index:1;
+        position: fixed;
+      }
+
+      .big_btn_down{
+
+       background-image:url('brushbig_on.png');
+        height:50px;
+        width:52px;
+        left:260px;
+
+        top:45px;
+        z-index:1;
+        position: fixed;
+      }
+
+
+
+      .clear_btn{
+        background-image: url('binicon-50-50.png');
+        background-position:center;
+        background-repeat:no-repeat;
+        width:50px;
+        height:50px;
+        left:10px;
+        top:10px;
+        z-index:1;
+        position: fixed;
+      }
+
+.clear_btn_down{
+         background-image: url('binicondown-50-50.png');
+        background-position:center;
+        background-repeat:no-repeat; 
+            width:50px;
+        height:50px;
+        left:10px;
+        top:10px;
+        z-index:1;
+        position: fixed;
+}
+
+
+    </style>
